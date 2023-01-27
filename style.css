@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 40px;
+    margin:30px ;
+}
+p{
+    font-size:20px;
+    margin-right:500px;
+}
+main{
+    display: flex;
+    height: 350px;
+}
+#result{  
+	text-align:center;
+    display: inline-block;
+    width:200px;
+    height:50px;
+    background-color: rgba(137, 43, 226, 0.443);
+    border: 2px solid rgba(73, 39, 107, 0.751);
+    border-radius: 15px;
+    margin:50px 0px 50px;
+    padding:115px 26px;
+    font-size: 30px;
+}
+input{
+    width:40px;
+    height:44px;
+    font-size: 17px;
+}
+#botoes{
+    width:55%;
+    margin-left:60px;
+}
+button{
+    display:block;
+    margin:40px;
+    margin-left:200px;
+    width:90px;
+    height:40px;
+    background-color: rgba(135, 150, 145, 0.564);
+    font-size: 17px;
+}
+button:hover{
+    cursor:pointer;
+    background-color:rgba(53, 179, 53, 0.785);
+}
+footer{
+    padding: 30px;
+}
