@@ -10,7 +10,9 @@
 </head>
 <body>
     <h1>Operações Matemáticas</h1>
-    <p>Escolha qual tipo de operação você quer fazer:</p>
+    <p id="instrucao">
+        Insira os números nos campos e escolha o tipo de operação que quer fazer com eles:
+    </p>
 
     <main>
         <section id="botoes">
@@ -22,11 +24,17 @@
 
             <button id="mult" onclick="mult()">multiplicar</button>
         </section>
+        <section id="campos">
+            <section id="campoDeOperacao" >
+                <input type="number" id="n1"  > ?
+                <input type="number" id="n2"  >
+            </section>
 
-        <section id="result">
-            <input type="number" id="n1" > ?
-            <input type="number" id="n2" >
+            <section id="campoDeResultado" >
+                resultado
+            </section>
         </section>
+        
     </main>
     <footer>Criado por Bárbara ❤️</footer>
     <script src="opMatematicas.js"></script>
