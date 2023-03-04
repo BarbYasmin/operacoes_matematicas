@@ -1,4 +1,3 @@
-
 var campoDeResultado=document.getElementById('campoDeResultado')
 
 function soma(){
